@@ -6,9 +6,9 @@ import numpy as np
 class MySql:
     __host = ""
     __user = ""
-    __password = "QAZplm13@"
-    __db = "bithumb"
-    __charset = "utf8mb4"
+    __password = ""
+    __db = ""
+    __charset = ""
 
     def __init__(self):
         file = open("init.ini", 'r')
